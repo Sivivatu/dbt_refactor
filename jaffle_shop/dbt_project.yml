@@ -38,6 +38,8 @@ models:
 
 seeds:
   jaffle_shop:
+    +schema:
+    # +identifier: "{seed_name}"
     stripe:
-      +schema: stripe
+      +schema: 
 
