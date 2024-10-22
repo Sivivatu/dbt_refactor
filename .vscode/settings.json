@@ -20,7 +20,7 @@
     },
     "peacock.color": "yellow",
     "sqlfluff.dialect": "snowflake",
-    "sqlfluff.executablePath": "D:\\dbt_refactor\\.venv\\Lib\\site-packages\\sqlfluff",
+    "sqlfluff.executablePath": "${workspaceFolder}\\.venv\\Lib\\site-packages\\sqlfluff",
     "files.associations": {
         "**/jaffle_shop/**/docs/**/*.md": "jinja-md",
         "**/jaffle_shop/**/*.yaml": "jinja-yaml",
