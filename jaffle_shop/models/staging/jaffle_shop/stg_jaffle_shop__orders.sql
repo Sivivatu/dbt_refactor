@@ -8,7 +8,7 @@ source as (
 transformed as (
     select
 
-        if as order_id,
+        id as order_id,
         USER_ID as customer_id,
         ORDER_DATE as order_placed_at,
         STATUS as order_status,
