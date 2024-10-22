@@ -10,7 +10,6 @@ dependencies = [
 
 [tool.uv]
 dev-dependencies = [
-    "dbt-core-interface>=0.2.4",
     "ruff>=0.7.0",
     "sqlfluff>=3.2.4",
 ]
