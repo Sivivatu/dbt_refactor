@@ -20,11 +20,13 @@
     },
     "peacock.color": "yellow",
     "sqlfluff.dialect": "snowflake",
-    "sqlfluff.executablePath": "",
+    "sqlfluff.executablePath": "D:\\dbt_refactor\\.venv\\Lib\\site-packages\\sqlfluff",
     "files.associations": {
         "**/jaffle_shop/**/docs/**/*.md": "jinja-md",
         "**/jaffle_shop/**/*.yaml": "jinja-yaml",
         "**/jaffle_shop/**/*.yml": "jinja-yaml",
         "**/jaffle_shop/**/*.sql": "jinja-sql"
-    }
+    },
+    "sqlfluff.dbtInterface.enabled": true,
+    
 }

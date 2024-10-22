@@ -286,6 +286,15 @@ wheels = [
 ]
 
 [[package]]
+name = "dbt-core-interface"
+version = "0.2.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b8/c9/a35e5c64106c2ccd554653e69240a1f0cc93c8ec95796397f03718c25a8e/dbt_core_interface-0.2.4.tar.gz", hash = "sha256:631e10595f152c98bcf9635bff806c7576170f9487d1e83dc40513d1b11242fa", size = 72580 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/85/63/66828b2df7a7c33f3a073980e43ab6104bcd2a64c2ff6dd88f1e4761d33b/dbt_core_interface-0.2.4-py3-none-any.whl", hash = "sha256:c035dcf1b74356e9033e111760330477047095ef368fc728b5425f015cd1b3e5", size = 73422 },
+]
+
+[[package]]
 name = "dbt-extractor"
 version = "0.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -318,6 +327,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "dbt-core-interface" },
     { name = "ruff" },
     { name = "sqlfluff" },
 ]
@@ -327,6 +337,7 @@ requires-dist = [{ name = "dbt-snowflake", specifier = ">=1.8.4" }]
 
 [package.metadata.requires-dev]
 dev = [
+    { name = "dbt-core-interface", specifier = ">=0.2.4" },
     { name = "ruff", specifier = ">=0.7.0" },
     { name = "sqlfluff", specifier = ">=3.2.4" },
 ]
